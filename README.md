@@ -4,7 +4,7 @@ A walk-in 3D portfolio. You play a little character in a kimono walking home dow
 
 Built with [Three.js](https://threejs.org/) and plain JavaScript. There are no image, model or audio files: every house, character and sound is made in code.
 
-**Live:** https://ius99.github.io/kasukabe/
+**Live:** https://ius99.github.io/Kasukabe/
 
 ## Controls
 
@@ -31,6 +31,8 @@ js/world.js       the street: neighbours' houses, walls, poles, lamps, trees
 js/home.js        the house, the room, the desk and the scrolls
 js/characters.js  chibi character builder, the player and the neighbours
 js/game.js        game state, input, collisions, camera and the main loop
+.github/workflows/pages.yml  deploys to GitHub Pages on push to main
+CONTEXT.md        full context for editing and extending the site
 ```
 
 ## Run locally
